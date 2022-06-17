@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4E4B1C285CC5C7003C2EB7 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E4B1B285CC5C7003C2EB7 /* TaskViewController.swift */; };
+		0C4E4B1E285CC5D2003C2EB7 /* TaskInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E4B1D285CC5D2003C2EB7 /* TaskInteractor.swift */; };
+		0C4E4B20285CC5DB003C2EB7 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E4B1F285CC5DB003C2EB7 /* TaskModel.swift */; };
+		0C4E4B22285CC5E8003C2EB7 /* TaskPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E4B21285CC5E8003C2EB7 /* TaskPresenter.swift */; };
 		0C7F9722285BA212006CC20F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F9721285BA212006CC20F /* AppDelegate.swift */; };
 		0C7F9724285BA212006CC20F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F9723285BA212006CC20F /* SceneDelegate.swift */; };
 		0C7F9726285BA212006CC20F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F9725285BA212006CC20F /* ViewController.swift */; };
@@ -16,6 +20,11 @@
 		0C7F9739285BA214006CC20F /* ArchitectureTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F9738285BA214006CC20F /* ArchitectureTestTests.swift */; };
 		0C7F9743285BA214006CC20F /* ArchitectureTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F9742285BA214006CC20F /* ArchitectureTestUITests.swift */; };
 		0C7F9745285BA214006CC20F /* ArchitectureTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F9744285BA214006CC20F /* ArchitectureTestUITestsLaunchTests.swift */; };
+		0C7F9753285BA245006CC20F /* SignRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F9752285BA245006CC20F /* SignRouter.swift */; };
+		0C7F9755285BA255006CC20F /* SignInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F9754285BA255006CC20F /* SignInteractor.swift */; };
+		0C7F9759285BA269006CC20F /* SignPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F9758285BA269006CC20F /* SignPresenter.swift */; };
+		0C7F975B285BA2D8006CC20F /* SignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F975A285BA2D8006CC20F /* SignModel.swift */; };
+		0C7F975D285BA518006CC20F /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F975C285BA518006CC20F /* SignViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4E4B1B285CC5C7003C2EB7 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		0C4E4B1D285CC5D2003C2EB7 /* TaskInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskInteractor.swift; sourceTree = "<group>"; };
+		0C4E4B1F285CC5DB003C2EB7 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		0C4E4B21285CC5E8003C2EB7 /* TaskPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPresenter.swift; sourceTree = "<group>"; };
 		0C7F971E285BA212006CC20F /* ArchitectureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7F9721285BA212006CC20F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C7F9723285BA212006CC20F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,11 @@
 		0C7F973E285BA214006CC20F /* ArchitectureTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7F9742285BA214006CC20F /* ArchitectureTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureTestUITests.swift; sourceTree = "<group>"; };
 		0C7F9744285BA214006CC20F /* ArchitectureTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0C7F9752285BA245006CC20F /* SignRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignRouter.swift; sourceTree = "<group>"; };
+		0C7F9754285BA255006CC20F /* SignInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInteractor.swift; sourceTree = "<group>"; };
+		0C7F9758285BA269006CC20F /* SignPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignPresenter.swift; sourceTree = "<group>"; };
+		0C7F975A285BA2D8006CC20F /* SignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignModel.swift; sourceTree = "<group>"; };
+		0C7F975C285BA518006CC20F /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4E4B1A285CC5B3003C2EB7 /* TestVIP */ = {
+			isa = PBXGroup;
+			children = (
+				0C4E4B1B285CC5C7003C2EB7 /* TaskViewController.swift */,
+				0C4E4B1D285CC5D2003C2EB7 /* TaskInteractor.swift */,
+				0C4E4B1F285CC5DB003C2EB7 /* TaskModel.swift */,
+				0C4E4B21285CC5E8003C2EB7 /* TaskPresenter.swift */,
+			);
+			path = TestVIP;
+			sourceTree = "<group>";
+		};
 		0C7F9715285BA212006CC20F = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +128,8 @@
 		0C7F9720285BA212006CC20F /* ArchitectureTest */ = {
 			isa = PBXGroup;
 			children = (
+				0C4E4B1A285CC5B3003C2EB7 /* TestVIP */,
+				0C7F9751285BA21D006CC20F /* VIP */,
 				0C7F9721285BA212006CC20F /* AppDelegate.swift */,
 				0C7F9723285BA212006CC20F /* SceneDelegate.swift */,
 				0C7F9725285BA212006CC20F /* ViewController.swift */,
@@ -125,6 +156,18 @@
 				0C7F9744285BA214006CC20F /* ArchitectureTestUITestsLaunchTests.swift */,
 			);
 			path = ArchitectureTestUITests;
+			sourceTree = "<group>";
+		};
+		0C7F9751285BA21D006CC20F /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				0C7F9752285BA245006CC20F /* SignRouter.swift */,
+				0C7F9754285BA255006CC20F /* SignInteractor.swift */,
+				0C7F9758285BA269006CC20F /* SignPresenter.swift */,
+				0C7F975A285BA2D8006CC20F /* SignModel.swift */,
+				0C7F975C285BA518006CC20F /* SignViewController.swift */,
+			);
+			path = VIP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +302,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C7F9726285BA212006CC20F /* ViewController.swift in Sources */,
+				0C7F9753285BA245006CC20F /* SignRouter.swift in Sources */,
+				0C7F9755285BA255006CC20F /* SignInteractor.swift in Sources */,
+				0C7F975B285BA2D8006CC20F /* SignModel.swift in Sources */,
+				0C4E4B20285CC5DB003C2EB7 /* TaskModel.swift in Sources */,
+				0C7F975D285BA518006CC20F /* SignViewController.swift in Sources */,
 				0C7F9722285BA212006CC20F /* AppDelegate.swift in Sources */,
 				0C7F9724285BA212006CC20F /* SceneDelegate.swift in Sources */,
+				0C4E4B1E285CC5D2003C2EB7 /* TaskInteractor.swift in Sources */,
+				0C4E4B22285CC5E8003C2EB7 /* TaskPresenter.swift in Sources */,
+				0C7F9759285BA269006CC20F /* SignPresenter.swift in Sources */,
+				0C4E4B1C285CC5C7003C2EB7 /* TaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
